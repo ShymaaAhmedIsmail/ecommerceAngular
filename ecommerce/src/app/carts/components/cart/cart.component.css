@@ -1,0 +1,32 @@
+tr{
+    font-size: larger !important;
+    vertical-align:middle;
+}
+.w-10{
+width: 10% !important;
+}
+.center{
+    text-align: center !important;
+    
+}
+.textcolor{
+    color:  #198754;;
+}
+.btn-style{
+    background-color: #198754;
+    border-radius: 24% 24%;
+    color: white;
+    border: wheat;
+}
+.styleorder{
+    background-color: #198754;
+    color: white;
+    margin-top: 10%;
+}
+.styledelete{
+    background-color: rgb(220 53 69);
+    color: white;
+    margin-top: 10%;  
+    padding-right: 13% !important;
+    padding-left: 13% !important;
+}

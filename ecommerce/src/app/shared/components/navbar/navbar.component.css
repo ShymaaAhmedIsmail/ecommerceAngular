@@ -1,0 +1,15 @@
+.w-10{
+    width: 5% !important;
+}
+.bg{
+    background-color: #3b5d50 !important;
+}
+
+li:hover{
+    border-bottom: solid 5px rgb(178, 178, 11);
+    font-weight: bold !important;
+}
+.b{
+    border-bottom: solid 5px rgb(178, 178, 11) !important;
+    font-weight: bold !important;
+}

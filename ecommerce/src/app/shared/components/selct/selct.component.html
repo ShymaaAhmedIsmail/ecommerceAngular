@@ -1,0 +1,7 @@
+<select class="form-select w-25 mt-5 mx-auto" aria-label="Default select example" (change)="filtercategory($event)" >
+
+ 
+    <option selected>All</option>
+    <option value="{{c}}" *ngFor="let c of data">{{c}}</option>
+    
+  </select>

@@ -1,0 +1,24 @@
+<div class="bg">
+
+
+
+    <div class="container">
+        <div class="d-flex justify-content-center">
+
+
+        </div>
+        <div class="shadow-lg w-50  m-auto mt-3 formstyle rounded-5">
+            <div *ngIf="login">
+                <app-login></app-login>
+                <div class="text-center pt-2">
+                    <span class="text-color me-2">Not a member?</span>
+                    <a class="me-3 fw-bold " (click)="registerfun()">Sign up Now</a>
+                </div>
+            </div>
+            <div *ngIf="register">
+                <app-register></app-register>
+              
+
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg bg text-white" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand  text-white  w-25" href="#">
+        <img src="assets/1.png" alt="" class=" w-25 ">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ps-5">
+     
+          <li class="nav-item">
+            <a class="nav-link  text-white fs-5 px-5" routerLink="home" routerLinkActive="b"  [routerLinkActiveOptions]="{'exact' :  true}" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white fs-5 px-5" routerLinkActive="b" routerLink="contact" >contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white fs-5 px-5" routerLinkActive="b" routerLink="about"  >About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white fs-5 px-5 me-2"  routerLink="cart" routerLinkActive="b"> <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white fs-5 px-5 me-2"  routerLink="account" routerLinkActive="b"> 
+              <i class="fa-regular fa-user" style="color: #ffffff;"></i>
+
+
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>

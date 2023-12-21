@@ -1,0 +1,29 @@
+<div *ngIf="register" >
+    <h2 class="text-center text-white py-3 rounded bg1 fw-bold">Registration</h2>
+
+    <div class="py-2 d-flex justify-content-center inpdiv ">
+        <!-- <label for="username" class="py-2 px-1 fs-5 pe-2">Name</label> -->
+        <input type="text" id="username" class="form-control w-50" placeholder="Enter your name" [(ngModel)]="userinfo.username">
+    </div>
+    <div class="py-2 d-flex justify-content-center inpdiv ">
+        <!-- <label for="useremail" class="py-2 px-1 fs-5 pe-2">Email address</label> -->
+        <input type="email" id="useremail" class="form-control w-50" placeholder="Enter your email" [(ngModel)]="userinfo.email">
+    </div>
+    
+    <div class="py-2 d-flex justify-content-center inpdiv">
+        <!-- <label for="pass" class="py-2 pe-5 fs-5">Password </label> -->
+        <input type="password" id="pass" class="form-control w-50" placeholder="Enter your Password" [(ngModel)]="userinfo.password">
+    </div>
+    <div class="py-2 d-flex justify-content-center inpdiv">
+        <!-- <label for="pass" class="py-2 pe-5 fs-5">Confirm Password </label> -->
+        <input type="password" id="pass" class="form-control w-50" placeholder="Confirm Password" [(ngModel)]="userinfo.cofirmpass">
+    </div>
+    <button class="btn btn-success1 rounded-pill w-50 m-auto mt-3" type="submit" (click)="saveData()">Register </button>
+    <div class="text-center pt-2">
+        <span class="text-color me-2">Already have an Account?</span>
+        <a class="me-3 fw-bold " (click)="loginfun()">Sign iN</a>
+    </div>
+</div>
+    <div *ngIf=login>
+        <app-login></app-login>
+    </div>

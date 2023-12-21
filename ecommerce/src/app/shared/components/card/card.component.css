@@ -1,0 +1,26 @@
+
+.ss{
+    display: flex;
+    justify-content: stretch !important;
+}
+.ss:hover {
+    scale: 110%;
+}
+img{
+    height: 50vh !important;
+}
+.text-container {
+    max-height: 77px; /* Specify the desired maximum height */
+    overflow: hidden;
+  }
+  .text-container2 {
+    max-height: 20px; /* Specify the desired maximum height */
+    overflow: hidden;
+  }
+  .bg{
+    background-color: #3b5d50 !important;
+}
+.bg-red{
+    background-color: #8bd9bb4d  !important;
+    
+}

@@ -1,0 +1,39 @@
+.bg{
+    /* background-color: #eee !important; */
+    min-height: 120vh;
+    padding-top: 6rem;
+    /* background-image: url('../assets/images.jpg') ;
+     */
+     
+     background-image: url('/assets/img.jpg');
+    background-position: center;
+    background-size: cover;
+    
+ }
+ .inpdiv label{
+     vertical-align: middle !important;
+     color: darkgreen;
+     font-weight: bold;
+ }
+ .formstyle{
+   
+     background-color: transparent;
+     height: 50vh;
+ }
+ .form-control:focus{
+     outline:  2px solid #3b5d50 !important;
+     box-shadow: none !important;
+     border: none !important;
+ }
+ .form-control{
+     background-color: transparent !important;
+ }
+ .btn-success1{
+     justify-content: center;
+     display: flex;
+     background-color: #3b5d50;
+     color: white;
+ }
+ .text-color{
+     color: #3b5d50 !important;
+ }

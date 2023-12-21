@@ -1,0 +1,10 @@
+<app-selct [data]="allcategory" (selectedval)="filtercategory($event)"></app-selct>
+<div class="row gx-5 d-flex" *ngIf="loading" >
+  <div class="col-md-3 col-sm-12 ss  " *ngFor="let p of allproducts" >
+<app-card [p]="p" (item)="addtocart($event) " (num)="quantity"></app-card>
+  </div>
+</div>
+<div class="d-flex justify-content-center mt-5">
+  <div class="lds-hourglass  " *ngIf="!loading"></div>
+
+</div>

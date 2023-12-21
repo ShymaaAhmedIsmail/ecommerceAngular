@@ -1,0 +1,20 @@
+<div class="card mt-5 bg-light   "   >
+    <img src="{{p.image}}" class="card-img-top" routerLink="/details/{{p.id}}">
+    <div class="card-body" >
+      <h5 class="card-title text-container2" routerLink="/details/{{p.id}}">{{p.title}}</h5>
+      <p class="card-text text-container" routerLink="/details/{{p.id}}">{{p.description}}</p>
+
+      <div class="">
+        <button  class="col-5 btn bg text-white p-0 " (click)="buttonselect=true" *ngIf="!buttonselect" >Buy Now</button>
+        <div class="d-flex " *ngIf="buttonselect"  >
+          <input type="number" class="" [(ngModel)]="num">
+          <button class="btn bg text-white" (click)="add(); buttonselect=false">Add </button>
+  
+  
+        </div>
+        <p class=" rounded p-1 bg-red rounded w-50 text-center ms-auto mt-3">{{p.price}}LE</p>
+      </div>
+   
+  
+    </div>
+  </div>
